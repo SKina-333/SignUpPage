@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" type="text/css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Lexend+Deca:wght@100..900&family=Lora:ital,wght@0,400..700;1,400..700&family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+    <title>Sign Up Page</title>
+</head>
+<body>
+    <main class="container">
+        <div class="side-image">
+            <div class="logo">
+                <img class="logo-img" src="img/logo.png" alt="ghibli logo">
+                <p class="logo-name">Howl's Moving Castle</p>
+            </div>
+        </div>
+        <div class="side-signup">
+            <div class="navbar">
+                <div class="left-nav">
+                    <button type="button" class="back"> <i class="fa fa-arrow-left"></i> &nbsp; Back</button>
+                </div>
+                <div class="right-nav">
+                    <input type="checkbox" id="check">
+	                <label for="check" class="button"></label>
+                </div>    
+            </div>
+
+            <div class="form-heading">
+                <p class="heading-title">
+                    User Sign-Up
+                </p>
+            </div>
+
+            <div class="form-content">
+                <form >
+                    <ul class="wrapper">
+                        <li class="form-row">
+                            <div class="column">
+                                <label for="fname">First Name</label><br/>
+                                <input type="text" id="fname"><br/>
+                            </div>
+                            <div class="column">
+                                <label for="lname">Last Name</label><br/>
+                                <input type="text" id="lname"><br/>
+                            </div>
+                        </li>
+                        <li class="form-row">
+                            <div class="column">
+                                <label for="dob">Date of birth</label><br/>
+                                <input type="datetime" id="dob"><br/>
+                            </div>
+                            <div class="column">
+                                <label for="phone">Phone Number</label><br/>
+                                <input type="number" id="phone"><br/>      
+                            </div>
+                        </li>
+                        <li class="form-row">
+                            <div class="column">
+                                <label for="email">Email</label><br/>
+                                <input type="email" id="email"><br/>
+                            </div>
+                        </li>
+                        <li class="form-row">
+                            <div class="column">
+                                <label for="password">Password</label><br/>
+                                <input type="password" id="password"><br/>
+                            </div>
+                            <div class="column">
+                                <label for="confirm-password">Confirm Password</label><br/>
+                                <input type="password" id="confirm-password"><br/>
+                            </div>
+                            
+                        </li>
+                        
+                        
+                        <li class="form-row">
+                            <input type="submit" value="Create Account">
+                        </li>
+                    </ul>
+                </form>
+                <div class="login-section">
+                    <p class="login-text">Already have am account? <a href="#">login</a></p>
+                </div>
+            </div>
+        </div>
+    </main>
+    
+</body>
+</html>
