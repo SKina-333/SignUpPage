@@ -166,8 +166,20 @@ body {
     margin-bottom: 20px;
 }
 
+input[type="number"] , input[type="email"], input[type="password"], input[type="text"], input[type="datetime"] {
+    padding: 12px 32px 12px 5px;
+    border-radius: 5px;
+    border: #318a96 1px solid;
+}
 
+input[type="password"]:invalid {
+    border: rgb(190, 6, 6) 1px solid;
+}
 
+input[type="number"]:focus , input[type="email"]:focus, input[type="text"]:focus, input[type="datetime"]:focus {
+    outline: none !important;
+    border: #082dff 1px solid;
+}
 
 
 .wrapper {
